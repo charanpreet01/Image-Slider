@@ -6,22 +6,19 @@ images.forEach((image)=>{
         console.log(e);
         if (e.target.id=="cricket") {
             body.style.backgroundImage="url(images/cricket.jpg)";
-            body.style.backgroundSize="cover";
-            body.style.backgroundRepeat="no-repeat";
+            body.style.objectFit="fill";
         }
         if (e.target.id=="football") {
             body.style.backgroundImage="url(images/football.jpg)";
-            body.style.backgroundSize="cover";
-            body.style.backgroundRepeat="no-repeat";
+            body.style.objectFit="fill";
         }
         if (e.target.id=="volleyball") {
             body.style.backgroundImage="url(images/volleyball.jpg)";
-            body.style.backgroundSize="cover";
-            body.style.backgroundRepeat="no-repeat";
+            body.style.objectFit="fill";
         }
         if (e.target.id=="chess") {
             body.style.backgroundImage="url(images/chess.jpg)";
-            body.style.backgroundSize="cover";
+            body.style.objectFit="fill";
         }
     })
 })
