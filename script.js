@@ -2,7 +2,7 @@ let body=document.querySelector("body");
 let images=document.querySelectorAll(".image");
 
 images.forEach((image)=>{
-    image.addEventListener("click",(e)=>{
+    image.addEventListener("mouseover",(e)=>{
         console.log(e);
         if (e.target.id=="cricket") {
             body.style.backgroundImage="url(images/cricket.jpg)";
